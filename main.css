@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+@keyframes upAndDown {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: -20px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+.float-btn{
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    margin-left: -16px;
+    width: 32px;
+    height: 32px;
+    border-left:2px solid #ffffff;
+    border-bottom:2px solid #ffffff;
+    transform: rotate(-45deg);
+    animation: upAndDown 2s linear infinite;
+    cursor: pointer;
+}
