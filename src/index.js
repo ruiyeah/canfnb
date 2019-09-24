@@ -1,6 +1,6 @@
 
 
-export default class ImageToolkit {
+export default class Canfnb {
     constructor(conf) {
         if (!conf) conf = {};
         this.conf = {
