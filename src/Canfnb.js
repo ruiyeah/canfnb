@@ -1,5 +1,6 @@
 
 
+
 export default class Canfnb {
     constructor(conf) {
         if (!conf) conf = {};

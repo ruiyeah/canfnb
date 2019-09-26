@@ -1,4 +1,4 @@
-import Canfnb from "./index.js"
+import Canfnb from "./Canfnb.js"
 
 let imgArr=["img/deer.png","img/fox.png","img/bear.png","img/giraffe.png","img/crow.png","img/sneakybird.png"];
 let canfnb=new Canfnb({
